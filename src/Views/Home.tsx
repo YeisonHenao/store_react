@@ -1,8 +1,9 @@
-import { useEffect , useState } from "react"
+import { useEffect  } from "react"
 import getAllProducts from "../Repository/store/getAllProducts"
+// import Products from "../Repository/model/Products"
 
 const HomeView = () => {
-  //const [product, setProducts] = useState([])
+  // const [product, setProducts] = useState<Array<Products>>([])
 
   useEffect(() => {
     getInfo()

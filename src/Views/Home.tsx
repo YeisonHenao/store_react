@@ -3,6 +3,12 @@ import getAllProducts from "../Repository/store/getAllProducts"
 // import Products from "../Repository/model/Products"
 
 const HomeView = () => {
+
+  // TODO 
+  // * Añadir metodo para consumir api de productos
+  // * Hacer un forEach y mostrar en pantalla cada titulo de producto
+  // * Crear vista para la tienda
+
   // const [product, setProducts] = useState<Array<Products>>([])
 
   useEffect(() => {
